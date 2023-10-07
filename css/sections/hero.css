@@ -171,6 +171,10 @@
 
     transform: matrix(1, 0.05, 0, 1.25, 0, 0) !important;
   }
+
+  .hero-content__testimonial {
+    border-bottom: 8px solid var(--color-creamson);
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -204,6 +208,10 @@
 
   .hero-content__testimonial {
     padding: 32px;
+  }
+
+  .hero-content__customer {
+    flex-direction: column;
   }
 }
 /* END: hero media queries */
